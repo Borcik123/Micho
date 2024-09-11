@@ -30,6 +30,9 @@
 <p align="left"> <font color="red" size="1" face="'Times New Roman"> XD śmiech </font> </p> <br>
 
 
+
+<p align="right"> <font color="red" size="3" face="Arial"> 80-188 Gdańsk Jana z Kolana 101/34 </font> </p> <br>
+
 		</body>
 	</html>
  
