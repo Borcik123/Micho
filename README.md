@@ -29,6 +29,21 @@
 <p align="right"> <font color="red" size="6" face="Courier New"> :O zdziwienie </font> </p> <br>
 <p align="left"> <font color="red" size="1" face="'Times New Roman"> XD śmiech </font> </p> <br>
 
+<p align="left"> <font color="blue" size="4" face="Arial"> 80-40 Gdańsk Jana z Kolana 101/34 </font> </p> <br>
+
+
+<p align="center"> <font color="yellow" size="7" face="Courier New"> Ryan Gosling </font> </p> <br>
+
+<p align="center"> <font color="gray" size="6" face="Times New Roman"> ulubiony zespół: <font color="green" size="6" face="Times New Roman"> Zabili mi żółwia </font> </p> <br>
+
+<p align="center"> <font color="rd" size="5" face="Verdana"> Data urodzenia 11 Września 2001 rok </font> </p> <br>
+
+<p align="left"> <font color="blue" size="3" face="Arial"> H<sub>2</sub>SO<sub>4</sub> </font> </p> <br>
+<p align="left"> <font color="blue" size="3" face="Arial"> x*x=x<sup>2</sup> </font> </p> <br>
+	
+
+
+
 		</body>
 	</html>
  
