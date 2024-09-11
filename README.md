@@ -1,4 +1,3 @@
-# Micho
 <!DOCTYPE html>
 	<html lang="pl-PL">
 	<html>
@@ -33,3 +32,4 @@
 
 		</body>
 	</html>
+ 
