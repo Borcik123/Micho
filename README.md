@@ -40,7 +40,105 @@
 
 <p align="left"> <font color="blue" size="3" face="Arial"> H<sub>2</sub>SO<sub>4</sub> </font> </p> <br>
 <p align="left"> <font color="blue" size="3" face="Arial"> x*x=x<sup>2</sup> </font> </p> <br>
+
+<FIELDSET>
+ <LEGEND> <p align="right"> <front color="blue" size="5" face "Times New Roman"> Żart o Windzie </font> </p> <br> </LEGEND>
+<IMG SRC="D:\2G_2/kot3.gif" ALIGN=left BORDER=3 WIDTH=200 HEIGHT=300 ALT="grafika1=Zawadzki">
+<br>
+ -Wchodzi baba do windy <br>
+ -A Tam SCHODY!!!!!!! <br>
+<br>
+<br>
+<HR SIZE=8 WIDTH=600 ALIGN=Left COLOR=green>
+Opracowanie mgr inż. Marek Kryniewski ZSE
+16
+
+<IMG SRC="D:\2G_2/kot1.gif" ALIGN=right BORDER=3 WIDTH=200 HEIGHT=300 ALT="grafika1=Zawadzki">
+</FIELDSET>
+
+
+<FIELDSET>
+ <LEGEND> <p align="right"> <front color="blue" size="5" face "Times New Roman"> Żart o Windzie </font> </p> <br> </LEGEND>
+ -Wchodzi baba do windy <br>
+<IMG SRC="D:\2G_2/maxwell.gif" ALIGN=right BORDER=3 WIDTH=200 HEIGHT=300 ALT="grafika1=Zawadzki">
+ -A Tam SCHODY!!!!!!! <br>
+<br>
+<HR SIZE=6 WIDTH=450 ALIGN=Left COLOR=blue>
+Opracowanie mgr inż. Marek Kryniewski ZSE
+16
+<IMG SRC="D:\2G_2/kot4.gif" ALIGN=left BORDER=3 WIDTH=200 HEIGHT=300 ALT="grafika1=Zawadzki">
+
+
+</FIELDSET>
+
+<FIELDSET>
+ <LEGEND> <p align="right"> <front color="blue" size="5" face "Times New Roman"> Żart o Windzie </font> </p> <br> </LEGEND>
+ -Wchodzi baba do windy <br>
+ -A Tam SCHODY!!!!!!! <br>
+
+<IMG SRC="D:\2G_2/kot2.gif" ALIGN=left BORDER=3 WIDTH=200 HEIGHT=300 ALT="grafika1=Zawadzki">
+<br>
+<HR SIZE=8 WIDTH=600 ALIGN=Left COLOR=red>
+Opracowanie mgr inż. Marek Kryniewski ZSE
+16
+
+<IMG SRC="D:\2G_2/silly.gif" ALIGN=right BORDER=3 WIDTH=200 HEIGHT=300 ALT="grafika1=Zawadzki">
+</FIELDSET>
+
+
+
+
+
+
 	
+
+ <UL TYPE=disc> 
+-3 złącza Szeregowe: <br>
+<LI> RS-232
+<LI> USB
+<LI> SPI
+ </UL>
+ <UL TYPE=circle> 
+-3 złącza równloegłe: <br>
+<LI> Centronics
+<LI> PCI
+<LI> PATA
+
+ </UL>
+ <UL TYPE=square> 
+-3 Rodzaje dysków: <br>
+<LI> HDD
+<LI> SSD
+<LI> NVMe
+ </UL>
+
+
+
+<OL> 
+	<LI> Urządzenia wewnętrzne komputera
+		<OL type=A> 
+			<LI> Płyta główna
+			<LI> Mikroprocesor
+			<LI> Karty rozszerzeń
+		</OL>
+	<LI> Urządzenia zewnętrzne komputera
+		<OL type=A> 
+				<LI> Monitor
+				<OL type=a>
+				<LI> z lampą kineskopową
+				<LI> LCD
+				</OL>
+			<LI> drukarka
+				<OL type=a>
+					<LI> igłowa
+					<LI> laserowa
+					<LI> atramentowe
+				</OL>
+		</OL>
+</OL>
+
+<IMG SRC="D:\2G_2/kot2.gif" ALIGN=right BORDER=3 WIDTH=200 HEIGHT=300 ALT="grafika1=Zawadzki">
+
 
 
 
