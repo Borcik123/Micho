@@ -6,6 +6,10 @@
 			 <title> Michał Zawadzki</title>
 		</head>
 		<body>
+			Walidacja strony HTML to proces, w którym narzędzie (walidator) sprawdza poprawność kodu pod kątem błędów składniowych. Testuje również zgodność ze specyfikacją użytego języka.
+			<br>
+			<br>
+			Walidator - Walidator HTML to specjalistyczny program lub aplikacja służąca do sprawdzania znaczników HTML na stronie internetowej pod kątem ewentualnych błędów składniowych i leksykalnych. Narzędzie to jest potrzebne, gdyż język HTML ma duży margines błędu – nawet w przypadku licznych nieścisłości w kodzie, strona nadal może całkiem dobrze funkcjonować.
 			Michał Zawadzki
 <p align="right"> <font color="blue" size="1" face="Arial"> Michał</font> </p> <br>
 <p align="right"> <font color="blue" size="2" face="Arial"> Michał</font> </p> <br>
@@ -136,8 +140,18 @@ Opracowanie mgr inż. Marek Kryniewski ZSE
 				</OL>
 		</OL>
 </OL>
-
-<IMG SRC="D:\2G_2/kot2.gif" ALIGN=right BORDER=3 WIDTH=200 HEIGHT=300 ALT="grafika1=Zawadzki">
+<br>
+<A HREF="Poczta_Zawadzki.html"> Poczta </A>
+<br>
+<A HREF="plik_Zawadzki.html"> Plik </A>
+<br>
+<A HREF="Tabela_Zawadzki.html"> Tabela </A>
+<br>
+<A HREF="formularz_Zawadzki.html"> Formularz </A>
+<br>
+<br>
+<br>
+<IMG SRC="D:\2G_2/kot2.gif" ALIGN=lef BORDER=3 WIDTH=100 HEIGHT=100 ALT="grafika1=Zawadzki">
 
 
 
