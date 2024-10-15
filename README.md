@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-	<html lang="pl-PL">
-	<html>
+	<html lang="pl-PL"><html>
 		<head>
 			 <meta charset="utf-8">
 			 <title> Michał Zawadzki</title>
 		</head>
 		<body>
 		<a id="top"></a>
-		
+		1
 			Walidacja strony HTML to proces, w którym narzędzie (walidator) sprawdza poprawność kodu pod kątem błędów składniowych. Testuje również zgodność ze specyfikacją użytego języka.
 			<br>
 			<br>
