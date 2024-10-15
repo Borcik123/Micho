@@ -15,7 +15,6 @@
 		<FIELDSET>
 		 <h1>Ułożenie linków na stronie</h1> <hr>
 		<p><strong>Góra strony:</strong></p>
-		<a id="top"></a>
 		<A HREF="Poczta_Zawadzki.html"> Link do poczty </A> <br>
 		<A HREF="plik_Zawadzki.html"> Link do ściągania pliku </A> <br>
 		<a href="#middle">Link do środka tekstu</a> <br>
