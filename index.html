@@ -6,18 +6,33 @@
 			 <title> Michał Zawadzki</title>
 		</head>
 		<body>
+		<a id="top"></a>
+		
 			Walidacja strony HTML to proces, w którym narzędzie (walidator) sprawdza poprawność kodu pod kątem błędów składniowych. Testuje również zgodność ze specyfikacją użytego języka.
 			<br>
 			<br>
 			Walidator - Walidator HTML to specjalistyczny program lub aplikacja służąca do sprawdzania znaczników HTML na stronie internetowej pod kątem ewentualnych błędów składniowych i leksykalnych. Narzędzie to jest potrzebne, gdyż język HTML ma duży margines błędu – nawet w przypadku licznych nieścisłości w kodzie, strona nadal może całkiem dobrze funkcjonować.
 			Michał Zawadzki
-<p align="right"> <font color="blue" size="1" face="Arial"> Michał</font> </p> <br>
-<p align="right"> <font color="blue" size="2" face="Arial"> Michał</font> </p> <br>
-<p align="right"> <font color="blue" size="3" face="Arial"> Michał</font> </p> <br>
-<p align="right"> <font color="blue" size="4" face="Arial"> Michał</font> </p> <br>
-<p align="right"> <font color="blue" size="5" face="Arial"> Michał</font> </p> <br>
-<p align="right"> <font color="blue" size="6" face="Arial"> Michał</font> </p> <br>
-<p align="right"> <font color="blue" size="7" face="Arial"> Michał</font> </p> <br>
+		
+		<FIELDSET>
+		 <h1>Ułożenie linków na stronie</h1> <hr>
+		<p><strong>Góra strony:</strong></p>
+		<a id="top"></a>
+		<A HREF="Poczta_Zawadzki.html"> Link do poczty </A> <br>
+		<A HREF="plik_Zawadzki.html"> Link do ściągania pliku </A> <br>
+		<a href="#middle">Link do środka tekstu</a> <br>
+		<a href="#bottom">Link do końca tekstu</a> <br>
+		<A HREF="Tabela_Zawadzki.html"> Link do strony zawierającej tabelę </A> <br>
+		<A HREF="formularz_Zawadzki.html"> Link do strony zawierającej formularz </A> <br>
+		</FIELDSET>
+		
+<p align="right"><font color="blue" size="1" face="Arial"> Michał</font> </p> <br>
+<p align="right"><font color="blue" size="2" face="Arial"> Michał</font> </p> <br>
+<p align="right"><font color="blue" size="3" face="Arial"> Michał</font> </p> <br>
+<p align="right"><font color="blue" size="4" face="Arial"> Michał</font> </p> <br>
+<p align="right"><font color="blue" size="5" face="Arial"> Michał</font> </p> <br>
+<p align="right"><font color="blue" size="6" face="Arial"> Michał</font> </p> <br>
+<p align="right"><font color="blue" size="7" face="Arial"> Michał</font> </p> <br>
 
 <h1> Zawadzki </h1><br>
 <h2> Zawadzki </h1><br>
@@ -74,7 +89,20 @@ Opracowanie mgr inż. Marek Kryniewski ZSE
 
 
 </FIELDSET>
-
+	
+<br>
+<FIELDSET>
+ <h2>Wypełnienie strony</h2> <hr>
+        <p><strong>środek strony:</strong></p>
+<a id="middle"></a>
+		<A HREF="Poczta_Zawadzki.html"> Link do poczty </A> <br>
+		<A HREF="plik_Zawadzki.html"> Link do ściągania pliku </A> <br>
+		<a href="#middle">Link do środka tekstu</a> <br>
+		<a href="#bottom">Link do końca tekstu</a> <br>
+		<A HREF="Tabela_Zawadzki.html"> Link do strony zawierającej tabelę </A> <br>
+		<A HREF="formularz_Zawadzki.html"> Link do strony zawierającej formularz </A> <br>
+		</FIELDSET>
+		
 <FIELDSET>
  <LEGEND> <p align="right"> <front color="blue" size="5" face "Times New Roman"> Żart o Windzie </font> </p> <br> </LEGEND>
  -Wchodzi baba do windy <br>
@@ -151,11 +179,27 @@ Opracowanie mgr inż. Marek Kryniewski ZSE
 <br>
 <br>
 <br>
-<IMG SRC="D:\2G_2/kot2.gif" ALIGN=lef BORDER=3 WIDTH=100 HEIGHT=100 ALT="grafika1=Zawadzki">
+<IMG SRC="D:\2G_2/kot2.gif" ALIGN=lef BORDER=3 WIDTH=100 HEIGHT=100 ALT="grafika1=Zawadzki"> <br>
 
+<FIELDSET>
+ <h3>Wypełnienie strony</h3> <hr>
+        <p><strong>dół strony:</strong></p>
+<a id="bottom"></a>
+		<A HREF="Poczta_Zawadzki.html"> Link do poczty </A> <br>
+		<A HREF="plik_Zawadzki.html"> Link do ściągania pliku </A> <br>
+		<a Href="#top">Link początek tekstu</a> <br>
+		<a Href="#middle">Link do środka tekstu</a> <br>
 
+		<A HREF="Tabela_Zawadzki.html"> Link do strony zawierającej tabelę </A> <br>
+		<A HREF="formularz_Zawadzki.html"> Link do strony zawierającej formularz </A> <br>
+		</FIELDSET>
+<br>
+<br>
+<br>
+Walidacja: <br>
+Index:
 
-
+<a id="bottom"></a>
 		</body>
 	</html>
  
