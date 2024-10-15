@@ -194,7 +194,7 @@ Opracowanie mgr inż. Marek Kryniewski ZSE
 <br>
 <br>
 <br>
- <h1>Walidacja - Nazwisko Ucznia</h1>
+ <h1>Walidacja - Zawadzki</h1>
     <p>Poniżej znajdują się zrzuty ekranu:</p>
 <IMG SRC="C:\Users\micho\Desktop\HTML" ALIGN=left BORDER=3 WIDTH=200 HEIGHT=300 ALT="Poprawa_Zawadzki"> <br>
 <IMG SRC="C:\Users\micho\Desktop\HTML" ALIGN=left BORDER=3 WIDTH=200 HEIGHT=300 ALT="Blad_Zawadzki"> <br>
