@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-	<html lang="pl-PL"><head>
+	<html lang="pl-PL"> <html><head>
 			 <meta charset="utf-8">
 			 <title> Michał Zawadzki</title>
 		</head>
 		<body>
 		<a id="top"></a>
-		1
+		
 			Walidacja strony HTML to proces, w którym narzędzie (walidator) sprawdza poprawność kodu pod kątem błędów składniowych. Testuje również zgodność ze specyfikacją użytego języka.
 			<br>
 			<br>
@@ -15,6 +15,7 @@
 		<FIELDSET>
 		 <h1>Ułożenie linków na stronie</h1> <hr>
 		<p><strong>Góra strony:</strong></p>
+		<a id="top"></a>
 		<A HREF="Poczta_Zawadzki.html"> Link do poczty </A> <br>
 		<A HREF="plik_Zawadzki.html"> Link do ściągania pliku </A> <br>
 		<a href="#middle">Link do środka tekstu</a> <br>
@@ -193,9 +194,14 @@ Opracowanie mgr inż. Marek Kryniewski ZSE
 <br>
 <br>
 <br>
-Walidacja: <br>
-Index:
-
+ <h1>Walidacja - Nazwisko Ucznia</h1>
+    <p>Poniżej znajdują się zrzuty ekranu:</p>
+<IMG SRC="C:\Users\micho\Desktop\HTML" ALIGN=left BORDER=3 WIDTH=200 HEIGHT=300 ALT="Poprawa_Zawadzki"> <br>
+<IMG SRC="C:\Users\micho\Desktop\HTML" ALIGN=left BORDER=3 WIDTH=200 HEIGHT=300 ALT="Blad_Zawadzki"> <br>
+<br>
+<br>
+<br>
+<IMG SRC="C:\Users\micho\Desktop\HTML" ALIGN=right BORDER=3 WIDTH=200 HEIGHT=300 ALT="HTML5"> <br>
 <a id="bottom"></a>
 		</body>
 	</html>
