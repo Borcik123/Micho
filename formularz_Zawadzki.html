@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-	<html lang="pl-PL"> <html><head>
-			 <meta charset="utf-8">
+<html lang="pl-PL">
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
 <body style="background-color: #66FFFF;">
 
 <h2>Formularz zapisu na korepetycje</h2>
@@ -8,126 +11,71 @@
     <fieldset>
         <legend>Twoje Dane</legend>
 
-        <label for="imie">Imię:</label><br>
+        <label for="imie">Imię:</label>
         <input type="text" id="imie" name="imie" maxlength="20" required><br><br>
         <label for="nazwisko">Nazwisko:</label>
         <input type="text" id="nazwisko" name="nazwisko" maxlength="20" required><br><br>
         <label for="email">Adres e-mail:</label>
         <input type="email" id="email" name="email" maxlength="30" required><br><br>
         <label for="wiek">Wiek:</label>
-        <input type="number" id="wiek" name="wiek" min="1" max="120"><br><br>
+        <input type="number" id="wiek" name="wiek" min="5" max="120"><br><br>
         <label for="haslo">Hasło:</label>
         <input type="password" id="haslo" name="haslo"><br><br>
     </fieldset>
 
     <br>
 
-    
     <fieldset>
-        <legend>Preferencje Muzyczne</legend>
+        <legend>Przedmioty i zainteresowania</legend>
 
-        <label>Wybierz swoje ulubione gatunki muzyczne:</label><br>
-        <input type="checkbox" id="rock" name="gatunek" value="rock">
-        <label for="rock">Rock</label><br>
-        <input type="checkbox" id="jazz" name="gatunek" value="jazz">
-        <label for="jazz">Jazz</label><br>
-        <input type="checkbox" id="pop" name="gatunek" value="pop">
-        <label for="pop">Pop</label><br>
-        <input type="checkbox" id="klasyczna" name="gatunek" value="klasyczna">
-        <label for="klasyczna">Muzyka klasyczna</label><br><br>
+        <label>Wybierz przedmioty, z których chcesz korepetycje:</label><br>
+        <input type="checkbox" id="matematyka" name="przedmiot" value="matematyka">
+        <label for="matematyka">Matematyka</label><br>
+        <input type="checkbox" id="fizyka" name="przedmiot" value="fizyka">
+        <label for="fizyka">Fizyka</label><br>
+        <input type="checkbox" id="chemia" name="przedmiot" value="chemia">
+        <label for="chemia">Chemia</label><br>
+        <input type="checkbox" id="angielski" name="przedmiot" value="angielski">
+        <label for="angielski">Język angielski</label><br>
+        <input type="checkbox" id="informatyka" name="przedmiot" value="informatyka">
+        <label for="informatyka">Informatyka</label><br><br>
 
-        <label>Preferowany typ muzyki:</label><br>
-        <input type="checkbox" id="blues" name="typ" value="blues">
-        <label for="blues">Blues</label><br>
-        <input type="checkbox" id="electro" name="typ" value="electro">
-        <label for="electro">Elektroniczna</label><br>
-        <input type="checkbox" id="hiphop" name="typ" value="hiphop">
-        <label for="hiphop">Hip-Hop</label><br><br>
+        <label>Poziom edukacji:</label><br>
+        <input type="radio" id="szkola_podstawowa" name="poziom" value="szkola_podstawowa">
+        <label for="szkola_podstawowa">Szkoła Podstawowa</label><br>
+        <input type="radio" id="liceum" name="poziom" value="liceum">
+        <label for="liceum">Liceum</label><br>
+        <input type="radio" id="studia" name="poziom" value="studia">
+        <label for="studia">Studia</label><br><br>
 
-        <label>Rodzaje wydarzeń:</label><br>
-        <input type="checkbox" id="koncert" name="wydarzenie" value="koncert" checked>
-        <label for="koncert">Koncerty</label>
-        <input type="checkbox" id="warsztaty" name="wydarzenie" value="warsztaty">
-        <label for="warsztaty">Warsztaty</label>
-        <input type="checkbox" id="jam_session" name="wydarzenie" value="jam_session">
-        <label for="jam_session">Jam Sessions</label>
-        <input type="checkbox" id="festiwal" name="wydarzenie" value="festiwal">
-        <label for="festiwal">Festiwale</label>
-        <input type="checkbox" id="spotkanie" name="wydarzenie" value="spotkanie">
-        <label for="spotkanie">Spotkania z artystami</label><br><br>
+        <label>Preferencje nauki:</label><br>
+        <select id="preferencje_nauki" name="preferencje_nauki">
+            <option value="indywidualne" selected>Indywidualne</option>
+            <option value="grupowe">Grupowe</option>
+            <option value="online">Online</option>
+            <option value="stacjonarne">Stacjonarne</option>
+        </select><br><br>
     </fieldset>
 
     <br>
 
-    
     <fieldset>
-        <legend>Instrumenty, na których grasz</legend>
+        <legend>Doświadczenie i cele</legend>
 
-        <label>Wybierz instrumenty:</label><br>
-        <input type="radio" id="gitara" name="instrument" value="gitara">
-        <label for="gitara">Gitara</label>
-        <input type="radio" id="pianino" name="instrument" value="pianino">
-        <label for="pianino">Pianino</label>
-        <input type="radio" id="skrzypce" name="instrument" value="skrzypce">
-        <label for="skrzypce">Skrzypce</label>
-        <input type="radio" id="perkusja" name="instrument" value="perkusja" checked>
-        <label for="perkusja">Perkusja</label><br><br>
-
-        <label>Doświadczenie w grze:</label><br>
-        <input type="radio" id="poczatkujacy" name="doswiadczenie" value="poczatkujacy">
+        <label>Twój poziom wiedzy:</label><br>
+        <input type="radio" id="poczatkujacy" name="poziom_wiedzy" value="poczatkujacy">
         <label for="poczatkujacy">Początkujący</label><br>
-        <input type="radio" id="sredniozaawansowany" name="doswiadczenie" value="sredniozaawansowany">
+        <input type="radio" id="sredniozaawansowany" name="poziom_wiedzy" value="sredniozaawansowany">
         <label for="sredniozaawansowany">Średniozaawansowany</label><br>
-        <input type="radio" id="zaawansowany" name="doswiadczenie" value="zaawansowany">
+        <input type="radio" id="zaawansowany" name="poziom_wiedzy" value="zaawansowany">
         <label for="zaawansowany">Zaawansowany</label><br><br>
 
-        <label>Inne instrumenty:</label><br>
-        <input type="radio" id="fortepian" name="inny_instrument" value="fortepian">
-        <label for="fortepian">Fortepian</label>
-        <input type="radio" id="saksofon" name="inny_instrument" value="saksofon">
-        <label for="saksofon">Saksofon</label>
-        <input type="radio" id="trabka" name="inny_instrument" value="trabka">
-        <label for="trabka">Trąbka</label>
-        <input type="radio" id="bas" name="inny_instrument" value="bas">
-        <label for="bas">Gitara basowa</label>
-        <input type="radio" id="wokal" name="inny_instrument" value="wokal">
-        <label for="wokal">Wokal</label><br><br>
+        <label>Twój cel korepetycji:</label><br>
+        <textarea id="cel" name="cel" rows="5" cols="40" placeholder="Opisz swoje cele, np. przygotowanie do matury, poprawienie ocen, rozwijanie zainteresowań..."></textarea><br><br>
     </fieldset>
 
     <br>
 
-    
-    <fieldset>
-        <legend>Inne preferencje</legend>
-
-        <label for="preferencja1">Preferencja spotkań:</label><br>
-        <select id="preferencja1" name="preferencja1">
-            <option value="online" selected>Online</option>
-            <option value="stacjonarnie">Stacjonarnie</option>
-            <option value="hybrydowo">Hybrydowo</option>
-            <option value="nieokreslone">Brak preferencji</option>
-            <option value="inne">Inne</option>
-        </select><br><br>
-
-        <label for="preferencja2">Rodzaj muzyki:</label><br>
-        <select id="preferencja2" name="preferencja2">
-            <option value="akustyczna">Akustyczna</option>
-            <option value="elektroniczna">Elektroniczna</option>
-            <option value="symfoniczna">Symfoniczna</option>
-            <option value="folk">Folk</option>
-        </select><br><br>
-
-        <label for="preferencja3">Poziom aktywności:</label><br>
-        <select id="preferencja3" name="preferencja3">
-            <option value="niski">Niski</option>
-            <option value="sredni" selected>Średni</option>
-            <option value="wysoki">Wysoki</option>
-        </select><br><br>
-    </fieldset>
-
-    <br>
-
-   
     <fieldset>
         <legend>Uwagi dodatkowe</legend>
 
@@ -137,9 +85,11 @@
 
     <br>
 
-    
     <button type="button" onclick="alert('Akcja przycisku 1')">Akcja 1</button>
     <button type="button" onclick="alert('Akcja przycisku 2')">Akcja 2</button>
     <input type="submit" value="WYŚLIJ">
     <input type="reset" value="CZYŚĆ">
 </form>
+
+</body>
+</html>
