@@ -6,135 +6,114 @@
 </head>
 <body style="background-color: #66FFFF;">
 
-<h2>Formularz zapisu na korepetycje</h2>
+<h2 style="text-align: center;">Formularz zapisu na korepetycje</h2>
 <form action="janazkolana@gmail.com" method="POST" enctype="text/plain">
-    <fieldset>
-        <legend>Twoje Dane</legend>
+    <fieldset style="margin: 20px;">
+        <legend><strong>Twoje Dane</strong></legend>
 
-        <label for="imie">Imię:</label>
-        <input type="text" id="imie" name="imie" maxlength="20" required><br><br>
-        <label for="nazwisko">Nazwisko:</label>
-        <input type="text" id="nazwisko" name="nazwisko" maxlength="20" required><br><br>
-        <label for="email">Adres e-mail:</label>
-        <input type="email" id="email" name="email" maxlength="30" required><br><br>
-        <label for="wiek">Wiek:</label>
-        <input type="number" id="wiek" name="wiek" min="1" max="120"><br><br>
-        <label for="haslo">Hasło:</label>
-        <input type="password" id="haslo" name="haslo"><br><br>
+        <label for="imie" style="display: inline-block; width: 120px;">Imię:</label>
+        <input type="text" id="imie" name="imie" maxlength="20" required style="width: 250px;"><br><br>
+
+        <label for="nazwisko" style="display: inline-block; width: 120px;">Nazwisko:</label>
+        <input type="text" id="nazwisko" name="nazwisko" maxlength="20" required style="width: 250px;"><br><br>
+
+        <label for="email" style="display: inline-block; width: 120px;">Adres e-mail:</label>
+        <input type="email" id="email" name="email" maxlength="30" required style="width: 300px;"><br><br>
+
+        <label for="wiek" style="display: inline-block; width: 120px;">Wiek:</label>
+        <input type="number" id="wiek" name="wiek" min="1" max="120" style="width: 70px;"><br><br>
+
+        <label for="haslo" style="display: inline-block; width: 120px;">Hasło:</label>
+        <input type="password" id="haslo" name="haslo" style="width: 200px;"><br><br>
     </fieldset>
 
     <br>
 
-    <fieldset>
-        <legend>Preferencje Przedmiotowe</legend>
+    <fieldset style="margin: 20px;">
+        <legend><strong>Preferencje Przedmiotowe</strong></legend>
 
         <label>Wybierz przedmioty, z których potrzebujesz korepetycje:</label><br>
-        <input type="checkbox" id="matematyka" name="przedmiot" value="matematyka">
-        <label for="matematyka">Matematyka</label><br>
-        <input type="checkbox" id="fizyka" name="przedmiot" value="fizyka">
-        <label for="fizyka">Fizyka</label><br>
-        <input type="checkbox" id="chemia" name="przedmiot" value="chemia">
-        <label for="chemia">Chemia</label><br>
-        <input type="checkbox" id="angielski" name="przedmiot" value="angielski">
-        <label for="angielski">Język angielski</label><br><br>
+        <div style="margin-left: 20px;">
+            <input type="checkbox" id="matematyka" name="przedmiot" value="matematyka">
+            <label for="matematyka">Matematyka</label><br>
+            <input type="checkbox" id="fizyka" name="przedmiot" value="fizyka">
+            <label for="fizyka">Fizyka</label><br>
+            <input type="checkbox" id="chemia" name="przedmiot" value="chemia">
+            <label for="chemia">Chemia</label><br>
+            <input type="checkbox" id="angielski" name="przedmiot" value="angielski">
+            <label for="angielski">Język angielski</label><br>
+        </div>
+        <br>
 
         <label>Preferowany tryb nauki:</label><br>
-        <input type="checkbox" id="online" name="tryb" value="online">
-        <label for="online">Online</label><br>
-        <input type="checkbox" id="stacjonarnie" name="tryb" value="stacjonarnie">
-        <label for="stacjonarnie">Stacjonarnie</label><br>
-        <input type="checkbox" id="hybrydowo" name="tryb" value="hybrydowo">
-        <label for="hybrydowo">Hybrydowo</label><br><br>
+        <div style="margin-left: 20px;">
+            <input type="checkbox" id="online" name="tryb" value="online">
+            <label for="online">Online</label><br>
+            <input type="checkbox" id="stacjonarnie" name="tryb" value="stacjonarnie">
+            <label for="stacjonarnie">Stacjonarnie</label><br>
+            <input type="checkbox" id="hybrydowo" name="tryb" value="hybrydowo">
+            <label for="hybrydowo">Hybrydowo</label><br>
+        </div>
+        <br>
 
         <label>Rodzaje zajęć:</label><br>
-        <input type="checkbox" id="grupowe" name="zajecia" value="grupowe" checked>
-        <label for="grupowe">Zajęcia grupowe</label>
-        <input type="checkbox" id="indywidualne" name="zajecia" value="indywidualne">
-        <label for="indywidualne">Zajęcia indywidualne</label>
-        <input type="checkbox" id="przygotowanie_egzamin" name="zajecia" value="przygotowanie_egzamin">
-        <label for="przygotowanie_egzamin">Przygotowanie do egzaminu</label>
-        <input type="checkbox" id="konwersacje" name="zajecia" value="konwersacje">
-        <label for="konwersacje">Konwersacje</label>
-        <input type="checkbox" id="warsztaty" name="zajecia" value="warsztaty">
-        <label for="warsztaty">Warsztaty tematyczne</label><br><br>
+        <div style="margin-left: 20px;">
+            <input type="checkbox" id="grupowe" name="zajecia" value="grupowe" checked>
+            <label for="grupowe">Zajęcia grupowe</label>
+            <input type="checkbox" id="indywidualne" name="zajecia" value="indywidualne">
+            <label for="indywidualne">Zajęcia indywidualne</label><br>
+            <input type="checkbox" id="przygotowanie_egzamin" name="zajecia" value="przygotowanie_egzamin">
+            <label for="przygotowanie_egzamin">Przygotowanie do egzaminu</label><br>
+            <input type="checkbox" id="konwersacje" name="zajecia" value="konwersacje">
+            <label for="konwersacje">Konwersacje</label>
+            <input type="checkbox" id="warsztaty" name="zajecia" value="warsztaty">
+            <label for="warsztaty">Warsztaty tematyczne</label><br>
+        </div>
     </fieldset>
 
     <br>
 
-    <fieldset>
-        <legend>Doświadczenie w nauce</legend>
+    <fieldset style="margin: 20px;">
+        <legend><strong>Doświadczenie w nauce</strong></legend>
 
         <label>Wybierz przedmiot, z którego już masz doświadczenie:</label><br>
-        <input type="radio" id="matematyka" name="doswiadczenie" value="matematyka">
-        <label for="matematyka">Matematyka</label>
-        <input type="radio" id="fizyka" name="doswiadczenie" value="fizyka">
-        <label for="fizyka">Fizyka</label>
-        <input type="radio" id="chemia" name="doswiadczenie" value="chemia">
-        <label for="chemia">Chemia</label>
-        <input type="radio" id="angielski" name="doswiadczenie" value="angielski" checked>
-        <label for="angielski">Język angielski</label><br><br>
+        <div style="margin-left: 20px;">
+            <input type="radio" id="matematyka" name="doswiadczenie" value="matematyka">
+            <label for="matematyka">Matematyka</label>
+            <input type="radio" id="fizyka" name="doswiadczenie" value="fizyka">
+            <label for="fizyka">Fizyka</label>
+            <input type="radio" id="chemia" name="doswiadczenie" value="chemia">
+            <label for="chemia">Chemia</label>
+            <input type="radio" id="angielski" name="doswiadczenie" value="angielski" checked>
+            <label for="angielski">Język angielski</label><br>
+        </div>
+        <br>
 
         <label>Twój poziom wiedzy:</label><br>
-        <input type="radio" id="poczatkujacy" name="poziom" value="poczatkujacy">
-        <label for="poczatkujacy">Początkujący</label><br>
-        <input type="radio" id="sredniozaawansowany" name="poziom" value="sredniozaawansowany">
-        <label for="sredniozaawansowany">Średniozaawansowany</label><br>
-        <input type="radio" id="zaawansowany" name="poziom" value="zaawansowany">
-        <label for="zaawansowany">Zaawansowany</label><br><br>
-
-        <label>Inne przedmioty, które chcesz rozwijać:</label><br>
-        <input type="radio" id="biologia" name="inne_przedmioty" value="biologia">
-        <label for="biologia">Biologia</label>
-        <input type="radio" id="geografia" name="inne_przedmioty" value="geografia">
-        <label for="geografia">Geografia</label>
-        <input type="radio" id="informatyka" name="inne_przedmioty" value="informatyka">
-        <label for="informatyka">Informatyka</label>
-        <input type="radio" id="historia" name="inne_przedmioty" value="historia">
-        <label for="historia">Historia</label>
-        <input type="radio" id="wos" name="inne_przedmioty" value="wos">
-        <label for="wos">Wiedza o społeczeństwie</label><br><br>
+        <div style="margin-left: 20px;">
+            <input type="radio" id="poczatkujacy" name="poziom" value="poczatkujacy">
+            <label for="poczatkujacy">Początkujący</label>
+            <input type="radio" id="sredniozaawansowany" name="poziom" value="sredniozaawansowany">
+            <label for="sredniozaawansowany">Średniozaawansowany</label>
+            <input type="radio" id="zaawansowany" name="poziom" value="zaawansowany">
+            <label for="zaawansowany">Zaawansowany</label><br>
+        </div>
     </fieldset>
 
     <br>
 
-    <fieldset>
-        <legend>Inne preferencje</legend>
-
-        <label for="preferencja1">Preferencja spotkań:</label><br>
-        <select id="preferencja1" name="preferencja1">
-            <option value="online" selected>Online</option>
-            <option value="stacjonarnie">Stacjonarnie</option>
-            <option value="hybrydowo">Hybrydowo</option>
-            <option value="nieokreslone">Brak preferencji</option>
-            <option value="inne">Inne</option>
-        </select><br><br>
-
-        <label for="preferencja2">Rodzaj pomocy:</label><br>
-        <select id="preferencja2" name="preferencja2">
-            <option value="rozumienie_zagadnien">Rozumienie zagadnień</option>
-            <option value="zadania_praktyczne">Zadania praktyczne</option>
-            <option value="nauka_teorii">Nauka teorii</option>
-            <option value="egzaminy">Przygotowanie do egzaminów</option>
-        </select><br><br>
-
-        <label for="preferencja3">Poziom intensywności:</label><br>
-        <select id="preferencja3" name="preferencja3">
-            <option value="niski">Niski</option>
-            <option value="sredni" selected>Średni</option>
-            <option value="wysoki">Wysoki</option>
-        </select><br><br>
-    </fieldset>
-
-    <br>
-
-    <fieldset>
-        <legend>Uwagi dodatkowe</legend>
-
+    <fieldset style="margin: 20px;">
+        <legend><strong>Uwagi dodatkowe</strong></legend>
         <label for="uwagi">Uwagi i komentarze:</label><br>
-        <textarea id="uwagi" name="uwagi" rows="5" cols="40"></textarea><br><br>
+        <textarea id="uwagi" name="uwagi" rows="4" cols="50" style="resize: none;"></textarea><br><br>
     </fieldset>
 
-    <br>
-
-    <button type="button" onclick="alert('Akcja przycisku 1')">Akcja 1</button>
-    <button type="button
+    <div style="text-align: center;">
+        <button type="button" onclick="alert('Akcja przycisku 1')">Akcja 1</button>
+        <button type="button" onclick="alert('Akcja przycisku 2')">Akcja 2</button>
+        <input type="submit" value="WYŚLIJ">
+        <input type="reset" value="CZYŚĆ">
+    </div>
+</form>
+</body>
+</html>
