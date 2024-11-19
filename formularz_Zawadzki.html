@@ -18,7 +18,7 @@
         <label for="email">Adres e-mail:</label>
         <input type="email" id="email" name="email" maxlength="30" required><br><br>
         <label for="wiek">Wiek:</label>
-        <input type="number" id="wiek" name="wiek" min="5" max="120"><br><br>
+        <input type="number" id="wiek" name="wiek" min="1" max="120"><br><br>
         <label for="haslo">Hasło:</label>
         <input type="password" id="haslo" name="haslo"><br><br>
     </fieldset>
@@ -26,9 +26,9 @@
     <br>
 
     <fieldset>
-        <legend>Przedmioty i zainteresowania</legend>
+        <legend>Preferencje Przedmiotowe</legend>
 
-        <label>Wybierz przedmioty, z których chcesz korepetycje:</label><br>
+        <label>Wybierz przedmioty, z których potrzebujesz korepetycje:</label><br>
         <input type="checkbox" id="matematyka" name="przedmiot" value="matematyka">
         <label for="matematyka">Matematyka</label><br>
         <input type="checkbox" id="fizyka" name="przedmiot" value="fizyka">
@@ -36,42 +36,93 @@
         <input type="checkbox" id="chemia" name="przedmiot" value="chemia">
         <label for="chemia">Chemia</label><br>
         <input type="checkbox" id="angielski" name="przedmiot" value="angielski">
-        <label for="angielski">Język angielski</label><br>
-        <input type="checkbox" id="informatyka" name="przedmiot" value="informatyka">
-        <label for="informatyka">Informatyka</label><br><br>
+        <label for="angielski">Język angielski</label><br><br>
 
-        <label>Poziom edukacji:</label><br>
-        <input type="radio" id="szkola_podstawowa" name="poziom" value="szkola_podstawowa">
-        <label for="szkola_podstawowa">Szkoła Podstawowa</label><br>
-        <input type="radio" id="liceum" name="poziom" value="liceum">
-        <label for="liceum">Liceum</label><br>
-        <input type="radio" id="studia" name="poziom" value="studia">
-        <label for="studia">Studia</label><br><br>
+        <label>Preferowany tryb nauki:</label><br>
+        <input type="checkbox" id="online" name="tryb" value="online">
+        <label for="online">Online</label><br>
+        <input type="checkbox" id="stacjonarnie" name="tryb" value="stacjonarnie">
+        <label for="stacjonarnie">Stacjonarnie</label><br>
+        <input type="checkbox" id="hybrydowo" name="tryb" value="hybrydowo">
+        <label for="hybrydowo">Hybrydowo</label><br><br>
 
-        <label>Preferencje nauki:</label><br>
-        <select id="preferencje_nauki" name="preferencje_nauki">
-            <option value="indywidualne" selected>Indywidualne</option>
-            <option value="grupowe">Grupowe</option>
-            <option value="online">Online</option>
-            <option value="stacjonarne">Stacjonarne</option>
-        </select><br><br>
+        <label>Rodzaje zajęć:</label><br>
+        <input type="checkbox" id="grupowe" name="zajecia" value="grupowe" checked>
+        <label for="grupowe">Zajęcia grupowe</label>
+        <input type="checkbox" id="indywidualne" name="zajecia" value="indywidualne">
+        <label for="indywidualne">Zajęcia indywidualne</label>
+        <input type="checkbox" id="przygotowanie_egzamin" name="zajecia" value="przygotowanie_egzamin">
+        <label for="przygotowanie_egzamin">Przygotowanie do egzaminu</label>
+        <input type="checkbox" id="konwersacje" name="zajecia" value="konwersacje">
+        <label for="konwersacje">Konwersacje</label>
+        <input type="checkbox" id="warsztaty" name="zajecia" value="warsztaty">
+        <label for="warsztaty">Warsztaty tematyczne</label><br><br>
     </fieldset>
 
     <br>
 
     <fieldset>
-        <legend>Doświadczenie i cele</legend>
+        <legend>Doświadczenie w nauce</legend>
+
+        <label>Wybierz przedmiot, z którego już masz doświadczenie:</label><br>
+        <input type="radio" id="matematyka" name="doswiadczenie" value="matematyka">
+        <label for="matematyka">Matematyka</label>
+        <input type="radio" id="fizyka" name="doswiadczenie" value="fizyka">
+        <label for="fizyka">Fizyka</label>
+        <input type="radio" id="chemia" name="doswiadczenie" value="chemia">
+        <label for="chemia">Chemia</label>
+        <input type="radio" id="angielski" name="doswiadczenie" value="angielski" checked>
+        <label for="angielski">Język angielski</label><br><br>
 
         <label>Twój poziom wiedzy:</label><br>
-        <input type="radio" id="poczatkujacy" name="poziom_wiedzy" value="poczatkujacy">
+        <input type="radio" id="poczatkujacy" name="poziom" value="poczatkujacy">
         <label for="poczatkujacy">Początkujący</label><br>
-        <input type="radio" id="sredniozaawansowany" name="poziom_wiedzy" value="sredniozaawansowany">
+        <input type="radio" id="sredniozaawansowany" name="poziom" value="sredniozaawansowany">
         <label for="sredniozaawansowany">Średniozaawansowany</label><br>
-        <input type="radio" id="zaawansowany" name="poziom_wiedzy" value="zaawansowany">
+        <input type="radio" id="zaawansowany" name="poziom" value="zaawansowany">
         <label for="zaawansowany">Zaawansowany</label><br><br>
 
-        <label>Twój cel korepetycji:</label><br>
-        <textarea id="cel" name="cel" rows="5" cols="40" placeholder="Opisz swoje cele, np. przygotowanie do matury, poprawienie ocen, rozwijanie zainteresowań..."></textarea><br><br>
+        <label>Inne przedmioty, które chcesz rozwijać:</label><br>
+        <input type="radio" id="biologia" name="inne_przedmioty" value="biologia">
+        <label for="biologia">Biologia</label>
+        <input type="radio" id="geografia" name="inne_przedmioty" value="geografia">
+        <label for="geografia">Geografia</label>
+        <input type="radio" id="informatyka" name="inne_przedmioty" value="informatyka">
+        <label for="informatyka">Informatyka</label>
+        <input type="radio" id="historia" name="inne_przedmioty" value="historia">
+        <label for="historia">Historia</label>
+        <input type="radio" id="wos" name="inne_przedmioty" value="wos">
+        <label for="wos">Wiedza o społeczeństwie</label><br><br>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Inne preferencje</legend>
+
+        <label for="preferencja1">Preferencja spotkań:</label><br>
+        <select id="preferencja1" name="preferencja1">
+            <option value="online" selected>Online</option>
+            <option value="stacjonarnie">Stacjonarnie</option>
+            <option value="hybrydowo">Hybrydowo</option>
+            <option value="nieokreslone">Brak preferencji</option>
+            <option value="inne">Inne</option>
+        </select><br><br>
+
+        <label for="preferencja2">Rodzaj pomocy:</label><br>
+        <select id="preferencja2" name="preferencja2">
+            <option value="rozumienie_zagadnien">Rozumienie zagadnień</option>
+            <option value="zadania_praktyczne">Zadania praktyczne</option>
+            <option value="nauka_teorii">Nauka teorii</option>
+            <option value="egzaminy">Przygotowanie do egzaminów</option>
+        </select><br><br>
+
+        <label for="preferencja3">Poziom intensywności:</label><br>
+        <select id="preferencja3" name="preferencja3">
+            <option value="niski">Niski</option>
+            <option value="sredni" selected>Średni</option>
+            <option value="wysoki">Wysoki</option>
+        </select><br><br>
     </fieldset>
 
     <br>
@@ -86,10 +137,4 @@
     <br>
 
     <button type="button" onclick="alert('Akcja przycisku 1')">Akcja 1</button>
-    <button type="button" onclick="alert('Akcja przycisku 2')">Akcja 2</button>
-    <input type="submit" value="WYŚLIJ">
-    <input type="reset" value="CZYŚĆ">
-</form>
-
-</body>
-</html>
+    <button type="button
